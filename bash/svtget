@@ -41,6 +41,7 @@ fi
 
 svtplay_url="http://www.svtplay.se"
 oppetarkiv_url="http://www.oppetarkiv.se"
+svt_url="http://www.svt.se"
 
 # actions
 play=""
@@ -268,6 +269,11 @@ pageUrl=${!#}
 if [ -z "$pageUrl" ] || [ "$pageUrl" == $0 ]; then
 	print_help
 	exit 1
+fi
+
+if [[ "$pageUrl" =~ $svt_url ]]; then
+	HTML=`curl -s "$pageUrl"`
+	pageUrl="$svtplay_url/video/"`echo $HTML | $SED -n 's/.*articleId=\([^"]\+\)&amp.*/\1/p' | $SED 's/&.*//g'`
 fi
 
 if [[ ! "$pageUrl" =~ $svtplay_url ]] && [[ ! "$pageUrl" =~ $oppetarkiv_url ]]; then
