@@ -16,6 +16,8 @@
 # Flattr: http://flattr.com/thing/300374/SVT-Get-a-local-cache-tool-for-SVT-Play
 
 # Changelog:
+# -- v0.1.5
+#    * Sikevux added svt.se support
 # -- v0.1.4
 #    * Erik Modén Changed filename to use folderStructure and title from json data.
 # -- v0.1.3
