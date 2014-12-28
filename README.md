@@ -2,8 +2,7 @@ SVT Get
 ==========
 "Ladda ner från SVT Play" in Swedish, SVT Get is a free software tool to make local cache files of SVT Play web streams, available from SVTPlay.se
 
-
-Bitcoin address: 1Nt5H47TU76pFpnaX6FQQvzLoS6F4sXC3Y
+The current method of downloading from SVT Play is probably a bit old-fashioned as they seem to have updated with HTML5 video streams for everything. Updates may ensue.
 
 
 Vad gör SVT Get?
