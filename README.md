@@ -43,3 +43,8 @@ Vem utvecklar SVT Get?
 Det ursprungliga bash-scriptet skrevs av Mikael "MMN-o" Nordfeldth, vars diverse skriverier ni kan följa på blog.mmn-o.se. Utvecklingen därefter kan följas från diverse forkade projekt, förhoppningsvis centrerat kring projektet på GitHub.
 Andra nämnvärda personer med relevant koppling till projektet är bl.a. @sikevux.
 Den fria mjukvaran SVTGet är skyddad av upphovsrättslagen enligt GPLv3. Samtlig text tillhörande projektet, hemsidan och sådant är licensierat Creative Commons Erkännande-DelaLika. Det är med dessa principer upphovsrätt bör fungera automatiskt, men tyvärr inte gör. Förhoppningen för framtiden är väl att SVT ska satsa mer på Creative Commons, för då har de rättigheterna att sprida vidare filmer och samhället behöver inte riskera att förlora sin kulturhistoria.
+
+Se även
+============
+
+Om du vill åstadkomma samma sak med Sveriges Radio (SR) kan du använda dig av [srget](https://github.com/fredrikekelund/srget).
